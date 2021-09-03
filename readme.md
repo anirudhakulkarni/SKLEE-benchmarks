@@ -17,4 +17,6 @@ Notes:
       1. 4 small pieces of codes
       2. Safemath library
       3. introduces a piece of code that will make math operations secure avoiding overflow errors and some checks
+   5. Extra data sets:
+      1. [smac-corpus/handle-download.js at master · aphd/smac-corpus (github.com)](https://github.com/aphd/smac-corpus/blob/master/src/services/handle-download.js) use this link. In the source code, someone forgot to hide apikey and we can use it to scrape contracts.
 2. Run script on Data set #2 where we have source codes - make sure to add check for solidity version
