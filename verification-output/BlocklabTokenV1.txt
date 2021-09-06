@@ -1,0 +1,31 @@
+Resuls Fetched
+Result:
+✅ Verified: Unchecked send
+✅ Verified: Prodigal
+✅ Verified: Greedy
+✅ Verified: Suicidal
+✅ Verified: Re-entrancy
+✅ Verified: Overflow
+✅ Verified: Address Typecast
+✅ Verified: Mapping read
+✅ Verified: Transaction Order Dependence
+✅ Verified: Transaction State Dependence
+✅ Verified: Block State Dependence
+
+✖ KLEE: Contract Warning: WithdrawalContract is payable, becomeRichest is payable, contract dont have fallback, should not be accepting payment
+
+TestCases:
+
+TestCase 1
+..//output/error-ptr.err000001.ktest.txt
+object 0: name: 'model_version'
+object 0: hex : 0x01000000
+object 0: int : 1
+object 1: name: 'receiver'
+object 1: hex : 0x000000000000000000000000000000000000000000000000
+object 2: name: 'amount'
+object 2: hex : 0xffffffffffffffff
+object 2: int : -1
+object 3: name: 'addr'
+object 3: hex : 0x010101010101010101010101010101010101010101010101
+
