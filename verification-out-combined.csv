@@ -1,0 +1,352 @@
+A,No Run
+AddressNames,1
+AddressOwnershipVerification,No Run
+AddressReg,0
+AgriChainProductionContract,0
+Ai,No Run
+AiraRegistrarService,No Run
+AlarmClockTipFaucet,1
+AmIOnTheFork,No Run
+AMIS,No Run
+Arith,Passed
+ArithLib,Passed
+ArrayLib,Passed
+Avatars,Passed
+BadgeReg,No Run
+BalancedPonzi,No Run
+BalanceReader,No Run
+Ballot,No Run
+BananaBasket,No Run
+BasicSign,No Run
+BCFSafe,1
+BeerKeg,No Run
+BetOnHardFork,7
+BigRisk,No Run
+BirthdayGift,1
+BirthdayPuzzle,0
+blockcdn,1
+blockchain2email,0
+BlockChainChallenge,Passed
+BlockChainEnterprise,No Run
+BlockhashFetch,Passed
+BlocklabTokenV1,3
+BlockmaticsGraduationCertificate,Passed
+BlockmaticsGraduationCertificate_02102017,Passed
+BlocksureInfo,0
+BokkyPooBahWuzHere,Passed
+BonusDealer,No Run
+BranchSender,No Run
+BranchWallet,No Run
+Buttcoin,No Run
+BuyerToken,No Run
+CafeMaker,4
+CafeMakerT3,3
+Campaign,No Run
+CampaignBeneficiary,Passed
+CertifierDb,No Run
+ChainSensitive,Passed
+CharlyLifeLog,No Run
+ChineseCookies,No Run
+ClassicCheck,0
+ClassicOnlyTransfer,No Run
+Coinflip,No Run
+comm_channel,No Run
+Conference,0
+ConnectSix,No Run
+Consulting,1
+Contest,No Run
+ContractPlay,0
+CrazyEarning,No Run
+Creator,Passed
+CreatorComission,Passed
+CreatorInvoice,No Run
+Crowdsale,Passed
+CrystalDoubler,No Run
+CSGOBets,No Run
+Dao9000,No Run
+DappReg,No Run
+DdosMitigation,No Run
+DepositHolder,No Run
+dEthereumlotteryNet,Passed
+DFS,Passed
+dgame,No Run
+DgxSwap,No Run
+Dice,Passed
+DiceRoll,Passed
+Display,No Run
+Dividend,No Run
+DividendProfit,0
+DNSResolver,No Run
+Docsign,2
+DogTestToken,0
+Doubler,No Run
+doubleyour5,No Run
+DXContracts,No Run
+DXF_Tokens,No Run
+Eater,Passed
+EC,Passed
+echo,Passed
+EdgelessToken,0
+ElcoinDb,No Run
+ERW,Passed
+Escrow,1
+ETCSurvey,No Run
+EthBank,No Run
+Etheramid,No Run
+Etheramid2,Passed
+Etherandom,No Run
+EtherandomProxy,0
+EthereumDice,No Run
+Ethereum_twelve_bagger,No Run
+Etherization,No Run
+etherlist_top,No Run
+EtherLovers,0
+Etheropt,No Run
+EtherprisesLLC,No Run
+EtherTopDog,No Run
+EtherTransfer,0
+EtherUnitConverter,Passed
+EtherVote,No Run
+EthFactory,No Run
+EthOne,No Run
+Ethsplit,No Run
+Ethstick,No Run
+EthToken,No Run
+EthVenturePlugin,1
+EthVentures,No Run
+EthVentures3,No Run
+EthVentures4,No Run
+EthVenturesFinal,No Run
+euroteambet,No Run
+EventInfo,Passed
+ExtraBalToken,No Run
+Factory,No Run
+fairandeasy,No Run
+FastRealisticPyramid,No Run
+FederatedOracleBytes8,No Run
+FileStorage,No Run
+FipsNotary,No Run
+FirePonzi,No Run
+FivePercent,No Run
+fivetimes,No Run
+ForceSend,No Run
+ForkChecker,No Run
+FountainOfWealth,No Run
+Free_Ether_A_Day_Funds_Return,No Run
+fresh,No Run
+GameOfThrones,No Run
+GameRegistry,No Run
+GeneralPurposeProfitSplitter,No Run
+GithubHint,No Run
+GivethDirectory,No Run
+GolemNetworkTokenWrapped,No Run
+Goodfellas,No Run
+goods,1
+Government,No Run
+GreedPit,No Run
+GSI,No Run
+HackDao,Passed
+HashToken,No Run
+HelloWorld,No Run
+HFConditionalTransfer,1
+Highlander,No Run
+HonestDice,No Run
+Honestgamble,No Run
+HumanStandardToken,No Run
+ICOCustomerDeposit,No Run
+IconomiToken,3
+IndividualityToken,Passed
+InsuranceAgent,No Run
+Intermediary,No Run
+Investment,Passed
+JackPot,No Run
+JamCoin,3
+KittenRegistry,No Run
+LastIsMe,No Run
+Laundromat,Passed
+LedgerSplitSingle,Passed
+LittleCactus,No Run
+LittleEthereumDoubler,No Run
+lol,0
+LongLiveThe2ndLaw,Passed
+LookAtAllTheseTastyFees,0
+LooneyLottery,No Run
+Looper,Passed
+Lottery,No Run
+Lotto,No Run
+LuckyDoubler,No Run
+Mapoc,No Run
+Marijuaneum,3
+Market,No Run
+MasterRegistry,No Run
+Mattew,0
+Matthew,0
+MeatConversionCalculator,No Run
+Megaloh,3
+MetaGold,3
+Migrations,0
+MillionEther,No Run
+mortal,0
+MPO,No Run
+MultiplyX10,No Run
+Multisend,No Run
+MultiSigWallet,No Run
+MyAdvancedToken,No Run
+MyContract,Passed
+MyReplaySafeProxy,No Run
+MyToken,No Run
+NanoPyramid,No Run
+Nexium,3
+NiceGuyPonzi,No Run
+NiceGuyTax,No Run
+NinjaToken,No Run
+NoFeePonzi,No Run
+NotAnotherPonzi,No Run
+Oath,Passed
+Omnipurse,No Run
+one,No Run
+OpenDollar,No Run
+OraclizeAddrResolver,0
+OrangeGov_Main,Passed
+PassDao,No Run
+PayToSHA256,No Run
+PiggyBank,No Run
+PixelMap,No Run
+PixelSelling,No Run
+plusOnePonzi,No Run
+Pluton,No Run
+Presale,No Run
+Prism,No Run
+PRNG_Challenge,No Run
+ProjectKudos,No Run
+ProofOfEmail,No Run
+ProofOfExistence,0
+ProofOfIdleness,Passed
+ProofOfSMS,No Run
+ProtectTheCastle,No Run
+ProxyElectricQueue,1
+quadrupler,No Run
+quick,No Run
+quick2,No Run
+RaceFTW,Passed
+Rating,No Run
+RecoveryWithTenant,No Run
+Registrar,No Run
+Registry,No Run
+ReleaseOracle,No Run
+ReplayProtection,No Run
+ReplaySafeSend,Passed
+ReplaySafeSplit,Passed
+ResetPonzi,No Run
+ReverseRegistrar,No Run
+ReversibleDemo,No Run
+Reward,No Run
+RipplePayExample,2
+RipplePayMain,3
+RNG,Passed
+RobinHoodPonzi,No Run
+RockPaperScissors,No Run
+RoundToken,0
+RPS,Passed
+Rubixi,No Run
+SafeConditionalHFTransfer,Passed
+self_store,0
+SellETCSafely,No Run
+SellTokens,No Run
+Send1Get2,No Run
+SendBack,Passed
+ShinySquirrels,Passed
+SignatureReg,No Run
+SignedDigitalAsset,No Run
+SimpleCoinFlipGame,No Run
+SimpleDice,No Run
+SimpleMixer,No Run
+SimpleStorage,Passed
+SingularDTVFund,No Run
+smallponzi,No Run
+SmartRevshare,No Run
+SmartRouletteToken,No Run
+Soarcoin,No Run
+SocialNetwork,No Run
+Soleau,1
+SpiceMembers,No Run
+Splitter,0
+SplitterEtcToEth,0
+SplitterEthToEtc,No Run
+squareRootPonzi,No Run
+StableBalancer,Passed
+StackyGame,No Run
+StakeProver,No Run
+StarbaseEarlyPurchase,No Run
+storadge,Passed
+store,No Run
+swap,1
+SwapToken,No Run
+SwarmRedistribution,No Run
+Sweeper,Passed
+Switch,No Run
+SWTConverter,No Run
+Sylence,No Run
+Tanya,No Run
+test2,No Run
+testing,No Run
+testingToken,0
+TestNetworkToken,No Run
+The10ETHPyramid,No Run
+TheDAOHardForkOracle,No Run
+TheEthereumLottery,Passed
+theRun,No Run
+theultimatepyramid,No Run
+thewhalegame,No Run
+Thing,No Run
+tickingBomb,No Run
+timegame,No Run
+Token,5
+TokenEventLib,Passed
+TokenReg,No Run
+TokenSale,0
+TokenTrader,No Run
+TokenTraderFactory,No Run
+TokenWrapper,Passed
+Token_Offer,1
+Tomeka,No Run
+TradeFinancing,1
+Trademark,Passed
+tradeReport,0
+TreasureChest,No Run
+triple,No Run
+TriWallet,No Run
+trustedChildRefund,No Run
+trustedChildWithdraw,No Run
+TrustEth,No Run
+TST,No Run
+TSwap,No Run
+two,0
+TwoAndAHalfPonzi,No Run
+t_swap,No Run
+UfoPonzi,No Run
+untrustedChildWithdraw,No Run
+UportRegistry,Passed
+UsernameRegistry,No Run
+ValentineRegistry,No Run
+ValidetherOracle,0
+Vault,1
+VerifiedExample02,Passed
+Videos,0
+VIUREFoundersTokenSale,No Run
+Vote,Passed
+Vow,No Run
+Wallet,No Run
+WavesEthereumSwap,0
+WavesPresale,No Run
+WealthRedistributionProject,No Run
+WealthShare,No Run
+WelfareTokenFund,No Run
+WHAuthorizeAddress,Passed
+WillieWatts,6
+WithdrawDAO,No Run
+x15,No Run
+X3,No Run
+XDRAC,6
+ZeroDollarHomePage,No Run
+ZeroPonzi,No Run
