@@ -1,0 +1,51 @@
+Resuls Fetched
+Result:
+✅ Verified: Unchecked send
+✅ Verified: Prodigal
+✅ Verified: Greedy
+✅ Verified: Suicidal
+✅ Verified: Re-entrancy
+✅ Verified: Overflow
+✅ Verified: Address Typecast
+✅ Verified: Mapping read
+✅ Verified: Transaction Order Dependence
+✅ Verified: Transaction State Dependence
+✅ Verified: Block State Dependence
+✅ Verified: Memory Overlap
+
+✖ KLEE: Contract Warning: WithdrawalContract is payable, becomeRichest is payable, contract dont have fallback, should not be accepting payment
+✖ KLEE: Contract Error: Subtraction Overflow:((ReadLSB w64 0 payed), (ReadLSB w64 0 delivered)) at [no debug info]
+✖ KLEE: Contract Error: Addition Overflow:((ReadLSB w64 0 delivered), 1) at [no debug info]
+
+TestCases:
+
+TestCase 1
+..//output/error-SubOverflow000001.ktest.txt
+object 0: name: 'model_version'
+object 0: hex : 0x01000000
+object 0: int : 1
+object 1: name: 'payed'
+object 1: hex : 0x0000000000000000
+object 1: int : 0
+object 2: name: 'delivered'
+object 2: hex : 0x0000000000000001
+object 2: int : 72057594037927936
+object 3: name: 'amount'
+object 3: hex : 0x0000000000000000
+object 3: int : 0
+
+TestCase 2
+..//output/error-AddOverflow000002.ktest.txt
+object 0: name: 'model_version'
+object 0: hex : 0x01000000
+object 0: int : 1
+object 1: name: 'payed'
+object 1: hex : 0x0000000000000000
+object 1: int : 0
+object 2: name: 'delivered'
+object 2: hex : 0xffffffffffffffff
+object 2: int : -1
+object 3: name: 'amount'
+object 3: hex : 0x0000000000000000
+object 3: int : 0
+

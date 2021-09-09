@@ -1,0 +1,131 @@
+Resuls Fetched
+Result:
+✅ Verified: Unchecked send
+✅ Verified: Prodigal
+✅ Verified: Greedy
+✅ Verified: Suicidal
+✅ Verified: Re-entrancy
+✅ Verified: Overflow
+✅ Verified: Address Typecast
+✅ Verified: Mapping read
+✅ Verified: Transaction Order Dependence
+✅ Verified: Transaction State Dependence
+✅ Verified: Block State Dependence
+✅ Verified: Memory Overlap
+
+✖ KLEE: Contract Warning: WithdrawalContract is payable, becomeRichest is payable, contract dont have fallback, should not be accepting payment
+✖ KLEE: Contract Error: Addition Overflow:(1, (ReadLSB w64 0 numYesBets)) at [no debug info]
+✖ KLEE: Contract Error: Addition Overflow:(1, (ReadLSB w64 0 numNoBets)) at [no debug info]
+✖ KLEE: Contract Error: Subtraction Overflow:((Extract w64 0 (Add w128 1
+✖ KLEE: Contract Error: Subtraction Overflow:((Extract w64 0 (Add w128 1
+
+TestCases:
+
+TestCase 1
+..//output/error-SubOverflow000003.ktest.txt
+object 0: name: 'model_version'
+object 0: hex : 0x01000000
+object 0: int : 1
+object 1: name: 'hardForkTimeStamp'
+object 1: hex : 0x0000000000000000
+object 1: int : 0
+object 2: name: 'betsOverTimeStamp'
+object 2: hex : 0x0000000000000000
+object 2: int : 0
+object 3: name: 'weekAfterHardFork'
+object 3: hex : 0x0000000000000000
+object 3: int : 0
+object 4: name: 'twoWeeksAfterHardFork'
+object 4: hex : 0x0000000000000000
+object 4: int : 0
+object 5: name: 'numYesBets'
+object 5: hex : 0xffffffffffffffff
+object 5: int : -1
+object 6: name: 'numNoBets'
+object 6: hex : 0xffffffffffffffff
+object 6: int : -1
+object 7: name: 'willSucceed'
+object 7: hex : 0x01
+object 7: int : 1
+
+TestCase 2
+..//output/error-AddOverflow000001.ktest.txt
+object 0: name: 'model_version'
+object 0: hex : 0x01000000
+object 0: int : 1
+object 1: name: 'hardForkTimeStamp'
+object 1: hex : 0x0000000000000000
+object 1: int : 0
+object 2: name: 'betsOverTimeStamp'
+object 2: hex : 0x0000000000000000
+object 2: int : 0
+object 3: name: 'weekAfterHardFork'
+object 3: hex : 0x0000000000000000
+object 3: int : 0
+object 4: name: 'twoWeeksAfterHardFork'
+object 4: hex : 0x0000000000000000
+object 4: int : 0
+object 5: name: 'numYesBets'
+object 5: hex : 0xffffffffffffffff
+object 5: int : -1
+object 6: name: 'numNoBets'
+object 6: hex : 0xffffffffffffffff
+object 6: int : -1
+object 7: name: 'willSucceed'
+object 7: hex : 0x01
+object 7: int : 1
+
+TestCase 3
+..//output/error-SubOverflow000004.ktest.txt
+object 0: name: 'model_version'
+object 0: hex : 0x01000000
+object 0: int : 1
+object 1: name: 'hardForkTimeStamp'
+object 1: hex : 0x0000000000000000
+object 1: int : 0
+object 2: name: 'betsOverTimeStamp'
+object 2: hex : 0x0000000000000000
+object 2: int : 0
+object 3: name: 'weekAfterHardFork'
+object 3: hex : 0x0000000000000000
+object 3: int : 0
+object 4: name: 'twoWeeksAfterHardFork'
+object 4: hex : 0x0000000000000000
+object 4: int : 0
+object 5: name: 'numYesBets'
+object 5: hex : 0xffffffffffffffff
+object 5: int : -1
+object 6: name: 'numNoBets'
+object 6: hex : 0xffffffffffffffff
+object 6: int : -1
+object 7: name: 'willSucceed'
+object 7: hex : 0x00
+object 7: int : 0
+
+TestCase 4
+..//output/error-AddOverflow000002.ktest.txt
+object 0: name: 'model_version'
+object 0: hex : 0x01000000
+object 0: int : 1
+object 1: name: 'hardForkTimeStamp'
+object 1: hex : 0x0000000000000000
+object 1: int : 0
+object 2: name: 'betsOverTimeStamp'
+object 2: hex : 0x0000000000000000
+object 2: int : 0
+object 3: name: 'weekAfterHardFork'
+object 3: hex : 0x0000000000000000
+object 3: int : 0
+object 4: name: 'twoWeeksAfterHardFork'
+object 4: hex : 0x0000000000000000
+object 4: int : 0
+object 5: name: 'numYesBets'
+object 5: hex : 0xffffffffffffffff
+object 5: int : -1
+object 6: name: 'numNoBets'
+object 6: hex : 0xffffffffffffffff
+object 6: int : -1
+object 7: name: 'willSucceed'
+object 7: hex : 0x00
+object 7: int : 0
+
