@@ -20,3 +20,13 @@ Notes:
    5. Extra data sets:
       1. [smac-corpus/handle-download.js at master · aphd/smac-corpus (github.com)](https://github.com/aphd/smac-corpus/blob/master/src/services/handle-download.js) use this link. In the source code, someone forgot to hide apikey and we can use it to scrape contracts.
 2. Run script on Data set #2 where we have source codes - make sure to add check for solidity version
+
+
+
+## Directory structure:
+1. contracts-extra-extracted-v4 : extra solidity contracts .sol files with version less than equal to v0.4
+2. contracts-extra-extracted    : extra solidity contracts .sol files all versions
+3. contracts-extra              : extra smart contracts imported from a [repo](https://github.com/aphd/smac-corpus/blob/master/src/services/handle-download.js) .sol 
+4. contracts-with-sources-extracted : subset of smart contracts with source code extracted from bytecode .sol files
+5. contracts-with-sources           : subset of smart contracts with bytecode that can be decompiled .json files
+6. contracts                        : original smart contracts downloaded from etherscan. .json files with metadata and bytecode
